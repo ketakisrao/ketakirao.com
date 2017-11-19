@@ -6,6 +6,9 @@
 	font-family: "HoneyScript";
 	src: url("../fonts/HoneyScript-SemiBold.ttf") format('truetype');
 }*/
+.preload {
+	background: url("images/origami.jpg") no-repeat -9999px -9999px;;
+}
 .main {
 	height: 100vh;
 	/*background: linear-gradient(to bottom right, #26a0da, #314755);*/
