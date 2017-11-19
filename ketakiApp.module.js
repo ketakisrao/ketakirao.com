@@ -1,1 +1,0 @@
-var ketakiApp = angular.module("ketakiApp", ["ngRoute"]);
