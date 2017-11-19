@@ -1,16 +1,55 @@
-.title-nav{
-	background-color: #ee6e73;
+@font-face {
+	font-family: "HoneyScript";
+	src: url("../fonts/HoneyScript-SemiBold.ttf") format('truetype');
 }
-.main-img{
-	border-radius: 50%;
-	margin: 5px;
+/*@font-face {
+	font-family: "HoneyScript";
+	src: url("../fonts/HoneyScript-SemiBold.ttf") format('truetype');
+}*/
+.main {
+	height: 100vh;
+	/*background: linear-gradient(to bottom right, #26a0da, #314755);*/
 }
-.about-img-width{
-	width: 50%;
+
+.overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top:0;
+	left:0;
+	color: #eeeeee;
+	font-family: "HoneyScript";
 }
-.icons{
-	width: 10px;
+
+.sunlight {
+	position: absolute;
+	top: -10px;
+	left: -30px;
+	opacity: 0.5;
+	max-height: 100vh;
 }
-.icons.science{
-	background-image: url('images/science.png')
+.name {
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	font-size: 12rem;
+}
+.wordcloud {
+	position: absolute;
+	font-family: "Comic Sans MS";
+	font-size: 44px;
+	top: 30px;
+}
+.wordcloud a {
+	color: #ffffff;
+}
+
+.item1 {
+	left: 7vw;
+}
+.item2 {
+	left: 37vw;
+}
+.item3 {
+	left: 67vw;
 }
